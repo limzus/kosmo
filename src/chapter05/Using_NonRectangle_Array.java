@@ -58,5 +58,8 @@ public class Using_NonRectangle_Array {
 		int[][] arr6
 		//arr6= {1,2},{3,4,5}} // 오류 발생
 
+
+	
+		
 }
 }
