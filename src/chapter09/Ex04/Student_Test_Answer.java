@@ -2,7 +2,8 @@ package chapter09.Ex04;
 
 class Student
 
-	static int seerialNum = 1000;	//모든 객체에서 공유하는 필드, 객체를 생성할때마다 1씩 증가
+
+	static int serialNum = 1000;	//모든 객체에서 공유하는 필드, 객체를 생성할때마다 1씩 증가
 	int studentID ;		//학생 공유ID
 	String studentName;	//학생 이름
 	int grade;			//학년 : 기본값으로 4학년

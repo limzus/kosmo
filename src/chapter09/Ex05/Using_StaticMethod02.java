@@ -24,9 +24,9 @@ class B{
 		
 		System.out.println("정적 메소드 - bcd()");
 							// - - 정적 필드, 정적 메소드
-		System.out.println(a);	//인스턴스 필드 올수 없다.
+//		System.out.println(a);	//인스턴스 필드 올수 없다.
 		System.out.println(b);	//정적 필드 (0)
-		cde() ;				//인스턴스 메소드(x)
+//		cde();				//인스턴스 메소드(x)
 	
 	}
 	void cde() { //인스턴스 메소드
@@ -55,12 +55,12 @@ public class Using_StaticMethod02 {
 		System.out.println("==객체 생성후 필드, 메소드 호출 ==");
 		//인스턴스 필드, 정적 필드 모두 호출
 		System.out.println(B.class);	// 인스턴스 필드
-		System.out.println(b.b);		// 정적 필드
+//		System.out.println(b.b);		// 정적 필드
 		B b= new B();
 		b.abc();
 		b.bcd();
 		b.cde();
-		b.def
+		b.def();
 	}
 
 }

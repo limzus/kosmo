@@ -8,7 +8,7 @@ class B{
 
 public class Test_B {
 	
-	s
+	
 	public static void main(String[] args) {
 		//객체 생성
 	B b1 = new B();

@@ -27,7 +27,7 @@ public class Using_StaticMethod03 {
 	static int b;
 	
 	void abc() {
-		System.out.println(abc() - 인스턴스);
+		System.out.println("abc() - 인스턴스");
 	}
 	static void bcd() {
 		System.out.println("bcd()- 정적 메소드");
@@ -40,10 +40,10 @@ public class Using_StaticMethod03 {
 		
 		System.out.println(C.b);
 		
-		System.out.println(a); //인스턴스 필드
+//		System.out.println(a); //인스턴스 필드
 		System.out.println(b); //정적 필드
 		
-	//	abc();	//인스턴스 메소드
+//		abc();	//인스턴스 메소드
 		bcd();	//정적 메소드
 	}
 }
